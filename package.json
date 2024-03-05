@@ -1,0 +1,36 @@
+{
+  "name": "log-styler",
+  "version": "1.0.0",
+  "description": "This is used to apply css on console text",
+  "main": "index.js",
+  "scripts": {
+    "test": "run log-styler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanshWebDev/log-styler.git"
+  },
+  "keywords": [
+    "\"keywords\":",
+    "[\"log\"",
+    "\"styler\"",
+    "\"console\"",
+    "\"text\"",
+    "\"CSS\"",
+    "\"styling\"",
+    "\"terminal\"",
+    "\"CLI\"",
+    "\"color\"",
+    "\"formatting\"",
+    "\"log",
+    "formatting\"",
+    "\"console",
+    "styling\"]"
+  ],
+  "author": "Vansh kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanshWebDev/log-styler/issues"
+  },
+  "homepage": "https://github.com/VanshWebDev/log-styler#readme"
+}
