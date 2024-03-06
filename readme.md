@@ -60,7 +60,7 @@ You can style as you want.
 
 ## 🚀 About Me
 
-__I'm a full stack developer...__
+I'm a full stack developer...
 
 ## Connect with Me
 
