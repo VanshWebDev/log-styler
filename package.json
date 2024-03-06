@@ -1,6 +1,6 @@
 {
   "name": "log-styler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Now style your css text",
   "main": "index.js",
   "type": "module",
