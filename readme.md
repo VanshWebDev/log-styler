@@ -6,7 +6,6 @@ Brief description of your npm package.
 
 You can install this package via **npm i log-styler**:
 
-```bash
 npm install log-styler
 
 
