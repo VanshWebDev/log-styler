@@ -14,7 +14,7 @@ Examples
 Provide usage examples or code snippets here.
 
 ```javascript I'm tab B
-import { log-styler } from 'log-styler'
+import log-styler from 'log-styler'
 
 logStyler({
     color: 'red',
