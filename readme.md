@@ -22,20 +22,16 @@ Provide usage examples or code snippets here.
 
 
 ```
+
 ####Parameters
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `style` | `object` | **Required** |
-
-#### Get item
-
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| Parameter | Type     | Description  |
+| :-------- | :------- | :----------- |
+| `style`   | `object` | **Required** |
+| `text`    | `string` | **Required** |
 
 ####
+
 `logStyler({
     color: 'red',
     background-color: 'white'
@@ -43,11 +39,9 @@ Provide usage examples or code snippets here.
 
 Takes two Parameter and print on console.
 
-
 ## Authors
 
 - [@VanshWebDev](https://github.com/VanshWebDev)
-
 
 ## Contributing
 
@@ -55,16 +49,14 @@ Contributions are always welcome!
 
 See [contributing.md](https://github.com/VanshWebDev/log-styler/blob/main/contributing.md) for ways to get started.
 
-
 ## Demo
 
 You can style as you want.
 ![Demo](images/image.png)
 
-
 ## 🚀 About Me
-I'm a full stack developer...
 
+I'm a full stack developer...
 
 ## Connect with Me
 
