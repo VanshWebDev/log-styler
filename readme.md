@@ -6,45 +6,66 @@ Brief description of your npm package.
 
 You can install this package via **npm i log-styler**:
 
-````bash
+```bash
 npm install log-styler
 
 
 ## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```bash
-
-API Documentation
-Document your package's API here.
-
 Examples
 Provide usage examples or code snippets here.
+`import log-styler from 'log-styler'
+`logStyler({
+    color: 'red',
+    background-color: 'white'
+}, num2);`
 
-Contributing
-If you'd like to contribute to this project, please follow these guidelines.
-
-License
-This project is licensed under the [License Name] - see the LICENSE.md file for details.
 
 
-Replace placeholders like `Your Package Name`, `your-package-name`, `Feature 1`, `License Name`, and others with the appropriate information specific to your package. Additionally, you can include sections like Installation, Usage, Features, API Documentation, Examples, Contributing guidelines, and License information.
+```
+####Parameters
 
-Make sure to provide detailed information to help users understand how to use your package and contribute to it if needed.
-````
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `style` | `object` | **Required** |
+
+#### Get item
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+####
+`logStyler({
+    color: 'red',
+    background-color: 'white'
+}, num2);`
+
+Takes two Parameter and print on console.
+
+
+## Authors
+
+- [@VanshWebDev](https://github.com/VanshWebDev)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See [contributing.md](https://github.com/VanshWebDev/log-styler/blob/main/contributing.md) for ways to get started.
+
+
+## Demo
+
+You can style as you want.
+![Demo](images/image.png)
+
+
+## 🚀 About Me
+I'm a full stack developer...
+
 
 ## Connect with Me
-
-![Logo](images/logo.jpg)
 
 Follow me on Instagram [@devloper.mind\_](https://www.instagram.com/devloper.mind_/)
