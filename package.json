@@ -1,7 +1,7 @@
 {
   "name": "log-styler",
   "version": "1.0.1",
-  "description": "Now style your css text",
+  "description": "Now style your consol text",
   "main": "index.js",
   "type": "module",
   "scripts": {

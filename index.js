@@ -25,4 +25,4 @@ let logStyler = (styleObj, text) => {
   }
 };
 
-export { logStyler };
+export default logStyler ;
