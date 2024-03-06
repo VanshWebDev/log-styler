@@ -13,11 +13,11 @@ npm install log-styler
 ## Usage
 Examples
 Provide usage examples or code snippets here.
-`import log-styler from 'log-styler'
+import log-styler from 'log-styler'
 logStyler({
     color: 'red',
     background-color: 'white'
-}, num2);`
+}, num2);
 
 
 
