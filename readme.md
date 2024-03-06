@@ -13,12 +13,15 @@ npm install log-styler
 ## Usage
 Examples
 Provide usage examples or code snippets here.
-import log-styler from 'log-styler'
+
+```javascript I'm tab B
+import { log-styler } from 'log-styler'
+
 logStyler({
     color: 'red',
     background-color: 'white'
 }, 'text here');
-
+```
 
 
 ```
@@ -35,7 +38,7 @@ logStyler({
 `logStyler({
     color: 'red',
     background-color: 'white'
-}, num2);`
+}, 'text here');`
 
 Takes two Parameter and print on console.
 

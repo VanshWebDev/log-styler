@@ -11,23 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/VanshWebDev/log-styler.git"
   },
-  "keywords": [
-    "\"keywords\":",
-    "[\"log\"",
-    "\"styler\"",
-    "\"console\"",
-    "\"text\"",
-    "\"CSS\"",
-    "\"styling\"",
-    "\"terminal\"",
-    "\"CLI\"",
-    "\"color\"",
-    "\"formatting\"",
-    "\"log",
-    "formatting\"",
-    "\"console",
-    "styling\"]"
-  ],
+  "keywords": [],
   "author": "Vansh kumar",
   "license": "ISC",
   "bugs": {
