@@ -23,7 +23,8 @@ logStyler({
 ```
 
 
-```
+```bash
+
 
 ####Parameters
 
