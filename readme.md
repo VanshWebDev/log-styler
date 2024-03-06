@@ -17,7 +17,7 @@ import log-styler from 'log-styler'
 logStyler({
     color: 'red',
     background-color: 'white'
-}, num2);
+}, 'text here');
 
 
 
