@@ -24,7 +24,7 @@ logStyler({
 
 
 ```bash
-
+```
 
 ####Parameters
 
