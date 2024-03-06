@@ -26,7 +26,7 @@ logStyler({
 ```bash
 ```
 
-####Parameters
+Parameters
 
 | Parameter | Type     | Description  |
 | :-------- | :------- | :----------- |
@@ -55,6 +55,7 @@ See [contributing.md](https://github.com/VanshWebDev/log-styler/blob/main/contri
 ## Demo
 
 You can style as you want.
+
 ![Demo](images/image.png)
 
 ## 🚀 About Me
