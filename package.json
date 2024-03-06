@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is used to apply css on console text",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "run log-styler"
   },
