@@ -10,7 +10,7 @@
 let validation = (styleObj, text) => {
   // Check if the style object is provided and is of type 'object'
   if (typeof styleObj !== "object") {
-    throw new Error("Style object is required");
+    throw new Error("Style parameter object is required");
   }
   // Check if the style object is empty
   else if (!Object.keys(styleObj).length) {

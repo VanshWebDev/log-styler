@@ -1,6 +1,7 @@
-import filterObj from "./styleObj.js/filterObj";
-import validation from "./styleObj.js/validation";
-import printOnConsole from "./styleObj.js/printOnConsole";
+import filterObj from "./styleObj/filterObj.js";
+import validation from "./styleObj/validation.js";
+import printOnConsole from "./styleObj/printOnConsole.js";
+import defaultStyle from "./styleObj/defaultStyle.js";
 
 /**
  * Applies CSS styling to the specified text and logs it to the console.
@@ -14,15 +15,28 @@ let logStyler = (styleObj, text) => {
     // Validate the style object and text parameter
     validation(styleObj, text);
 
-    // Filter out unsupported CSS properties
-    const filteredStyle = filterObj(styleObj);
+    //default styling
+    let defaultCss = defaultStyle(styleObj, text);
+    if (defaultCss.withEmojiText) {
+      let { withEmojiText } = defaultCss;
+      text = withEmojiText;
+    }
 
-    // Print the styled text to the console
-    printOnConsole(filteredStyle, text);
+    // Filter out unsupported CSS properties
+    let filteredStyle;
+    if (!defaultCss) {
+      filteredStyle = filterObj(styleObj);
+    } else {
+      filteredStyle = filterObj(defaultCss);
+    }
+    // Print the styled text to the console accordingly
+    !defaultCss
+      ? printOnConsole(filteredStyle, text)
+      : printOnConsole(filteredStyle, text);
   } catch (error) {
     // Log any errors to the console
     console.error(error);
   }
 };
 
-export default logStyler ;
+export default logStyler;

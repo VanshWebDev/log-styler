@@ -16,10 +16,20 @@ Provide usage examples or code snippets here.
 ```javascript I'm tab B
 import logStyler from 'log-styler'
 
-logStyler({
-    color: 'red',
-    backgroundColor: 'white'
-}, 'text here');
+logStyler(
+  {
+    color: "red",
+    backgroundColor: "white",
+    fontFamily: "Dosis, sans-serif",
+    fontSize: "30px",
+    fontWeight: "bold",
+    padding: "5px 15px",
+    borderRadius: "5px",
+    animation: "anim 0.5s infinite",
+    border: "5px solid red",
+  },
+  "text here"
+);
 ```
 
 
@@ -37,7 +47,7 @@ Parameters
 
 `logStyler({
     color: 'red',
-    background-color: 'white'
+    backgroundColor: 'white'
 }, 'text here');`
 
 Takes two Parameter and print on console.
