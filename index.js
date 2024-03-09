@@ -17,22 +17,16 @@ let logStyler = (styleObj, text) => {
 
     //default styling
     let defaultCss = defaultStyle(styleObj, text);
-    if (defaultCss.withEmojiText) {
-      let { withEmojiText } = defaultCss;
-      text = withEmojiText;
+    if (defaultCss && defaultCss.withEmojiText) {
+      text = defaultCss.withEmojiText;
     }
 
     // Filter out unsupported CSS properties
-    let filteredStyle;
-    if (!defaultCss) {
-      filteredStyle = filterObj(styleObj);
-    } else {
-      filteredStyle = filterObj(defaultCss);
-    }
-    // Print the styled text to the console accordingly
-    !defaultCss
-      ? printOnConsole(filteredStyle, text)
-      : printOnConsole(filteredStyle, text);
+    let filteredStyle = defaultCss
+      ? filterObj(defaultCss)
+      : filterObj(styleObj);
+
+    printOnConsole(filteredStyle, text);
   } catch (error) {
     // Log any errors to the console
     console.error(error);

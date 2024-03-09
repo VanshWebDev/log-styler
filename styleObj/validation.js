@@ -21,7 +21,7 @@ let validation = (styleObj, text) => {
     throw new Error("Second parameter text is required");
   }
   // Check if the text exceeds the maximum length
-  else if (text.length > 100) {
+  else if (text.length > 1000) {
     throw new Error("Text length must be less than 100");
   }
   // Return true if validation passes
