@@ -1,6 +1,6 @@
 {
   "name": "log-styler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Now style your consol text",
   "main": "index.js",
   "type": "module",

@@ -1,15 +1,20 @@
 <h1 align="center">
   <a href="https://www.bytescale.com/docs/sdks/javascript">
-    <img alt="Logo" width="100" height="100"style="border-radius: 10px" src="https://github.com/VanshWebDev/log-styler/blob/main/images/logo.jpg">
+    <img alt="Logo" width="150" height="150"style="border-radius: 10px" src="https://github.com/VanshWebDev/log-styler/blob/main/images/logo.jpg">
   </a>
 </h1>
 
   <a target="_blank" href="https://github.com/VanshWebDev" >
-    <img alt="Twitter URL" src="https://github.com/VanshWebDev/log-styler/blob/main/images/insta.png" height="20" width="50"/>
+    <img alt="Twitter URL" src="https://github.com/VanshWebDev/log-styler/blob/main/images/insta.png" height="30" width="70"/>
+  </a>
+  <a target="_blank" href="https://github.com/VanshWebDev" >
+    <img alt="Twitter URL" src="https://github.com/VanshWebDev/log-styler/blob/main/images/linkedin.png" height="30" width="70"/>
+  </a>
+  <a target="_blank" href="https://github.com/VanshWebDev" >
+    <img alt="Twitter URL" src="https://github.com/VanshWebDev/log-styler/blob/main/images/portfolio.png" height="30" width="70"/>
   </a>
 
-  <a target="_blank" href="https://twitter.com/intent/tweet?text=This%20was%20a%20great%20find...%0A%0Ahttps%3A%2F%2Fgithub.com%2Fbytescale%2Fbytescale-javascript-sdk">
-    <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fbytescale%2Fbytescale-javascript-sdk" />
+
   </a>
 
 </p>
@@ -22,7 +27,7 @@
 
 <hr/>
 
-<img alt="Bytescale JavaScript SDK Example" src="image.png">
+<img alt="Bytescale JavaScript SDK Example" src="https://github.com/VanshWebDev/log-styler/blob/main/images/image.png">
 
 ## Installation
 
