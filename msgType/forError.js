@@ -10,7 +10,7 @@ import errorCss from "../cssObj/errorCss"; // Import default error CSS styles
 const forError = (key, text) => {
   // Create a copy of errorCss to avoid mutating the original object
   let updatedCss;
-  
+
   // Check if the 'overRide' property exists and is set to true in the 'key.error' object
   if (
     key.error &&
